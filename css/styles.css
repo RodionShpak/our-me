@@ -1,35 +1,44 @@
-@media screen and (prefers-reduced-motion: no-preference) {
-  html,
+html,
   body {
     scroll-behavior: smooth;
   }
-}
 
 .skroll{
   position: fixed;
   bottom: 30px;
   right: 30px;
-  z-index: 9;
 }
-.skroll a {
-  height: 40px;
-  width: 40px;
+
+.skroll-link{
+  display: block;
+}
+
+.skroll a  {
+  width: 30px;
+  height: 30px;
+  font-size: 30px;
   text-align: center;
   background: #FFB8CA;
   border: 2px solid #D41443;
   display: block;
   border-radius: 50%;
   text-decoration: none;
-}
-.skroll a span {
-  color: #FFF;
-  font-size: 30px;
-  line-height: 50px;
   cursor: pointer;
 }
 
-.span:hover{
-  fill: #D41443;
+
+.skroll-up{
+  transform: rotate(-90deg);
+}
+
+.icon-skroll{
+  fill: #fff
+}
+
+.icon-skroll:hover,
+.icon-skroll:focus
+{
+  fill: #D41443; 
 }
 
 .lorem{
