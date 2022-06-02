@@ -12,14 +12,14 @@ html{
   height: 40px;
   width: 40px;
   text-align: center;
-  background: #FFB8CA;
+  background: #D41443;
   border: 2px solid #D41443;
   display: block;
   border-radius: 50%;
   text-decoration: none;
 }
 .skroll a span {
-  color: #D41443;
+  color: #FFB8CA;
   font-size: 30px;
   line-height: 55px;
   cursor: pointer;
